@@ -1,6 +1,10 @@
-# Positron Labs
+<p align="center">
+  <img src="https://raw.githubusercontent.com/positron-labs/.github/main/assets/positron-db-logo.png" alt="Positron DB" width="160" />
+</p>
 
-**Positron DB** is an AI-driven SQL IDE for people who live in databases.
+<h1 align="center">Positron Labs</h1>
+
+<p align="center"><strong>Positron DB</strong> is an AI-driven SQL IDE for people who live in databases.</p>
 
 It is a standalone desktop app (not a browser tab, not a VSCode extension) that pairs a
 full-featured SQL workbench with an AI assistant that actually understands your schema.
