@@ -52,7 +52,7 @@ and drop it straight into the editor.
 
 ## Get it
 
-👉 **[snoutdata.com](https://snoutdata.com)**: downloads, plans, and account.
+**[snoutdata.com](https://snoutdata.com)**: downloads, plans, and account.
 
 ## Repositories
 
