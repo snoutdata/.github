@@ -11,44 +11,35 @@ and drop it straight into the editor.
 
 ## See it in action
 
-### Ask in plain English, get schema-grounded SQL
+<sub>Click any screenshot to view it full size.</sub>
 
-The assistant reads your live schema (tables, columns, foreign keys) and writes real,
-runnable SQL, then explains its reasoning. One click drops it into the editor or a new tab.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-build-report.png"><img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-build-report.png" alt="The AI assistant building a multi-table sales report grounded in the real schema" width="100%" /></a>
+      <p><b>Ask in plain English, get schema-grounded SQL</b><br/><sub>The assistant reads your live tables, columns, and foreign keys, writes runnable SQL, and explains it. One click drops it into the editor.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-query-fixing.png"><img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-query-fixing.png" alt="The AI assistant diagnosing and correcting a failed query" width="100%" /></a>
+      <p><b>Paste a failing query, get the fix</b><br/><sub>Hand it the error and the SQL that produced it. It diagnoses the cause against your real schema and returns corrected SQL.</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/table-telemetry.png"><img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/table-telemetry.png" alt="The per-table telemetry view showing storage, schema, and recent queries" width="100%" /></a>
+      <p><b>Know your tables at a glance</b><br/><sub>Per-table storage and index sizes, schema facts (keys, indexes, engine), and the queries that recently touched it.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/themes.png"><img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/themes.png" alt="SnoutData in its light theme" width="100%" /></a>
+      <p><b>Light and dark</b><br/><sub>A polished light theme and a deep dark theme, both tuned for long sessions staring at results.</sub></p>
+    </td>
+  </tr>
+</table>
 
-<img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-build-report.png" alt="The AI assistant building a multi-table sales report grounded in the real schema" width="100%" />
-
-### Paste a failing query, get the fix
-
-Hand the assistant an error and the SQL that produced it. It diagnoses the cause against
-your actual schema (a wrong table name, a missing column) and returns corrected SQL.
-
-<img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-query-fixing.png" alt="The AI assistant diagnosing and correcting a failed query" width="100%" />
-
-### Know your tables at a glance
-
-Every table gets a telemetry view: storage and index sizes, schema facts (keys, indexes,
-engine, collation), and the queries that recently touched it.
-
-<img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/table-telemetry.png" alt="The per-table telemetry view showing storage, schema, and recent queries" width="100%" />
-
-### Connect securely
-
-MySQL / Aurora, PostgreSQL, and SQL Server, with optional SSH tunneling and AWS Secrets
-Manager. Credentials are encrypted by your OS keychain, never stored in plain text.
-
-<img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/connection-settings.png" alt="The connection editor with SSH tunnel and AWS Secrets Manager options" width="60%" />
-
-### Pick the model that fits the question
-
-Fast models for everyday SQL, more capable ones for the hard questions. Toggle which
-models show in the picker.
-
-<img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/ai-chat-settings.png" alt="The AI model picker with fast, balanced, and powerful options" width="100%" />
-
-### Light and dark
-
-<img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/themes.png" alt="SnoutData in its light theme" width="100%" />
+<p align="center">
+  <a href="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/connection-settings.png"><img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/connection-settings.png" alt="The connection editor with SSH tunnel and AWS Secrets Manager options" width="300" /></a><br/>
+  <sub><b>Connect securely</b> — MySQL / Aurora, PostgreSQL, and SQL Server, with optional SSH tunneling and AWS Secrets Manager. Credentials are encrypted by your OS keychain.</sub>
+</p>
 
 ## What you get
 
