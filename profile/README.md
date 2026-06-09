@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/positron-labs/.github/main/assets/banner.png" alt="Positron DB: an AI-driven SQL IDE that knows your schema" width="100%" />
+  <img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/banner.png" alt="SnoutData: an AI-driven SQL IDE that knows your schema" width="100%" />
 </p>
 
-**Positron DB** is an AI-driven SQL IDE for people who live in databases.
+**SnoutData** is an AI-driven SQL IDE for people who live in databases.
 
 It is a standalone desktop app (not a browser tab, not a VSCode extension) that pairs a
 full-featured SQL workbench with an AI assistant that actually understands your schema.
@@ -24,10 +24,10 @@ and drop it straight into the editor.
 
 ## Get it
 
-👉 **[positrondb.com](https://positrondb.com)** — downloads, plans, and account.
+👉 **[snoutdata.com](https://snoutdata.com)** — downloads, plans, and account.
 
 ## Repositories
 
-- **[positron-labs/db](https://github.com/positron-labs/db)** — the Positron DB desktop app.
-- **[positron-labs/apt](https://github.com/positron-labs/apt)** — the Debian/Ubuntu apt
+- **[snoutdata/db](https://github.com/snoutdata/db)** — the SnoutData desktop app.
+- **[snoutdata/apt](https://github.com/snoutdata/apt)** — the Debian/Ubuntu apt
   repository that powers Linux auto-updates.
