@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/banner.png" alt="SnoutData: an AI-driven SQL IDE that knows your schema" width="100%" />
+  <img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/logo.png" alt="SnoutData" width="180" />
 </p>
 
 **SnoutData** is an AI-driven SQL IDE for people who live in databases.
