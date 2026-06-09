@@ -9,7 +9,7 @@ full-featured SQL workbench with an AI assistant that actually understands your 
 Ask a question in plain English, get SQL grounded in your real tables and foreign keys,
 and drop it straight into the editor.
 
-## See it in action
+## Screenshots
 
 <sub>Click any screenshot to view it full size.</sub>
 
