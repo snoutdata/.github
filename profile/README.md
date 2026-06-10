@@ -34,13 +34,14 @@ and drop it straight into the editor.
       <p><b>Light and dark</b><br/><sub>A polished light theme and a deep dark theme, both tuned for long sessions staring at results.</sub></p>
     </td>
   </tr>
-  <tr>
-    <td colspan="2" align="center" valign="top">
-      <a href="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-mcp.png"><img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-mcp.png" alt="The Agent access settings letting an external AI agent query databases over MCP without sharing credentials" width="86%" /></a>
-      <p><b>Bring your own agent, keep your secrets</b><br/><sub>Point Claude Code, Codex, or any MCP client at your databases through SnoutData. Your connection passwords and keys never leave your OS keychain, and never touch the agent or a repo. Read-only by default; you choose exactly which connections are reachable.</sub></p>
-    </td>
-  </tr>
 </table>
+
+<br/>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-mcp.png"><img src="https://raw.githubusercontent.com/snoutdata/.github/main/assets/screenshots/agent-mcp.png" alt="The Agent access settings letting an external AI agent query databases over MCP without sharing credentials" width="86%" /></a>
+</p>
+<p align="center"><b>Bring your own agent, keep your secrets</b><br/><sub>Point Claude Code, Codex, or any MCP client at your databases through SnoutData. Your connection passwords and keys never leave your OS keychain, and never touch the agent or a repo. Read-only by default; you choose exactly which connections are reachable.</sub></p>
 
 ## What you get
 
