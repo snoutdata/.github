@@ -8,6 +8,10 @@
   A full-stack cloud backend to build on, and a desktop workbench to explore your data and work with coding agents.
 </p>
 
+<br/>
+
+---
+
 - **[snoutdata/snoutdata](https://github.com/snoutdata/snoutdata)**: start here. The docs, runnable examples, and everything in one place.
 - **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**: the `snoutdata` CLI and its MCP server.
 - **[snoutdata/snout-client](https://github.com/snoutdata/snout-client)**: `@snoutdata/client`, the JavaScript client for a SnoutData Cloud project.
