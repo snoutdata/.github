@@ -6,7 +6,7 @@
 
 <p align="center">
   A full-stack cloud backend to build on. A desktop workbench to explore your data and work with coding agents.<br/>
-  <b>Helping thousands of developers to build their projects.</b>
+  <b>For developers and businesses of every size.</b>
 </p>
 
 <p align="center">
@@ -21,6 +21,8 @@
 
 - **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**: the source of the SnoutData
   CLI and its MCP server ([`snoutdata` on npm](https://www.npmjs.com/package/snoutdata)).
+- **[snoutdata/snout-client](https://github.com/snoutdata/snout-client)**: `@snoutdata/client`,
+  the JavaScript client for a SnoutData Cloud project. MIT.
 - **[snoutdata/app](https://github.com/snoutdata/app)**: SnoutData Desktop releases for Windows,
   macOS and Linux, and the feed the app updates itself from.
 - **[snoutdata/apt](https://github.com/snoutdata/apt)**: the signed Debian/Ubuntu apt repository.
@@ -31,7 +33,7 @@ Your app's backend in one project: **Postgres 17** with **auth**, **file storage
 a **REST and GraphQL API**, **Snout Functions** (your own TypeScript) and **timeseries**. It
 sleeps when idle and wakes on the next connection.
 
-Your app talks to it with [`@snoutdata/client`](https://www.npmjs.com/package/@snoutdata/client),
+Your app talks to it with [`@snoutdata/client`](https://github.com/snoutdata/snout-client) (MIT),
 or with the client it is already written against by changing one URL.
 [Get started](https://docs.snoutdata.com/cloud/getting-started).
 
@@ -46,8 +48,8 @@ npx snoutdata functions deploy hello
 npx -y snoutdata mcp            # the same operations as MCP tools for your agent
 ```
 
-Its source is on GitHub at **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**:
-read it, build it, file issues against it. It is built to be driven by a program as much as by a
+Its source is on GitHub at **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**,
+source-available under the Elastic License 2.0: read it, build it, file issues against it. It is built to be driven by a program as much as by a
 person:
 
 - **`--json` everywhere**, with exactly one JSON value on stdout, so a pipe into `jq` needs no
@@ -58,7 +60,6 @@ person:
 - **An MCP server built in**, so Claude Code, Codex or opencode get the same operations as tools.
 - **One bundled file, no dependencies**, so `npx snoutdata` is a download rather than an install.
 
-Licensed under the [Elastic License 2.0](https://github.com/snoutdata/snout-cli/blob/main/LICENSE).
 [CLI reference](https://docs.snoutdata.com/cloud/cli).
 
 ## SnoutData Desktop
