@@ -14,7 +14,7 @@
   <a href="https://docs.snoutdata.com">Docs</a> ·
   <a href="https://dashboard.snoutdata.com">Dashboard</a> ·
   <a href="https://snoutdata.com/blog">Blog</a> ·
-  <a href="https://github.com/snoutdata/app/releases/latest">Download</a>
+  <a href="https://snoutdata.com/download">Download</a>
 </p>
 
 ## Repositories
