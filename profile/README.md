@@ -21,32 +21,33 @@
 
 Your app's backend in one project: **Postgres 17** with **auth**, **file storage**, **realtime**,
 a **REST and GraphQL API**, **Snout Functions** (your own TypeScript) and **timeseries**. It
-sleeps when idle and wakes on the next connection. Set it up from a terminal, yours or your coding
-agent's:
-
-```bash
-npx snoutdata login
-npx snoutdata init --env        # a project, and DATABASE_URL in .env
-npx snoutdata functions deploy hello
-```
+sleeps when idle and wakes on the next connection.
 
 Your app talks to it with [`@snoutdata/client`](https://www.npmjs.com/package/@snoutdata/client),
 or with the client it is already written against by changing one URL.
 [Get started](https://docs.snoutdata.com/cloud/getting-started).
 
-## The CLI is on GitHub
+### The `snoutdata` CLI
 
-**[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)** is the source of the
-`snoutdata` command: read it, build it, file issues against it. It is built to be driven by a
-program as much as by a person:
+You set up and run a project from a terminal, yours or your coding agent's:
+
+```bash
+npx snoutdata login
+npx snoutdata init --env        # a project, and DATABASE_URL in .env
+npx snoutdata functions deploy hello
+npx -y snoutdata mcp            # the same operations as MCP tools for your agent
+```
+
+Its source is on GitHub at **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**:
+read it, build it, file issues against it. It is built to be driven by a program as much as by a
+person:
 
 - **`--json` everywhere**, with exactly one JSON value on stdout, so a pipe into `jq` needs no
   filtering. A failure is JSON too: `{"ok":false,"code":"...","error":"..."}`.
 - **Typed exit codes**, so a caller knows whether to retry, sign in again or give up.
 - **No prompts** outside a terminal. A command that would have to ask names the flag to pass and
   exits instead of hanging your CI.
-- **An MCP server built in:** `npx -y snoutdata mcp` gives Claude Code, Codex or opencode the same
-  operations.
+- **An MCP server built in**, so Claude Code, Codex or opencode get the same operations as tools.
 - **One bundled file, no dependencies**, so `npx snoutdata` is a download rather than an install.
 
 Licensed under the [Elastic License 2.0](https://github.com/snoutdata/snout-cli/blob/main/LICENSE).
