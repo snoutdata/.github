@@ -17,6 +17,14 @@
   <a href="https://github.com/snoutdata/app/releases/latest">Download</a>
 </p>
 
+## Repositories
+
+- **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**: the source of the SnoutData
+  CLI and its MCP server ([`snoutdata` on npm](https://www.npmjs.com/package/snoutdata)).
+- **[snoutdata/app](https://github.com/snoutdata/app)**: SnoutData Desktop releases for Windows,
+  macOS and Linux, and the feed the app updates itself from.
+- **[snoutdata/apt](https://github.com/snoutdata/apt)**: the signed Debian/Ubuntu apt repository.
+
 ## SnoutData Cloud
 
 Your app's backend in one project: **Postgres 17** with **auth**, **file storage**, **realtime**,
@@ -94,13 +102,3 @@ inside it.
     </td>
   </tr>
 </table>
-
-## Repositories
-
-- **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**: the source of the SnoutData
-  CLI and its MCP server ([`snoutdata` on npm](https://www.npmjs.com/package/snoutdata)).
-- **[snoutdata/app](https://github.com/snoutdata/app)**: SnoutData Desktop releases for Windows,
-  macOS and Linux, and the feed the app updates itself from.
-- **[snoutdata/apt](https://github.com/snoutdata/apt)**: the signed Debian/Ubuntu apt repository.
-- **[`@snoutdata/client` on npm](https://www.npmjs.com/package/@snoutdata/client)**: the
-  JavaScript client for a SnoutData Cloud project.
