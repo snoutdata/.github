@@ -18,7 +18,8 @@ that is not yours, and do not test against other people's accounts or projects.
   90 days**.
 - We tell you when it is fixed, and credit you in the release notes if you would like us to.
 
-Please give us that window before disclosing publicly. We do not run a paid bug bounty.
+Please hold public disclosure until the fix ships or 90 days from your report, whichever is
+sooner. We do not run a paid bug bounty.
 
 ## Safe harbor
 
@@ -29,7 +30,8 @@ our users and their data, and giving us a reasonable time to fix it before discl
 ## Scope
 
 In scope: SnoutData Desktop, SnoutData Cloud (projects, the dashboard, `*.snoutdata.com`), the
-`snoutdata` CLI, `@snoutdata/client`, and `snoutdata.com`.
+`snoutdata` CLI, `@snoutdata/client`, and `snoutdata.com`. `*.snoutdata.com` includes other
+customers' project hostnames: test only against projects and accounts you own.
 
 Out of scope: denial-of-service and volumetric testing, social engineering, and third-party
 services we use (report those to their vendor).
