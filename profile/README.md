@@ -15,5 +15,6 @@
 - **[snoutdata/snoutdata](https://github.com/snoutdata/snoutdata)**: start here. The docs, runnable examples, and everything in one place.
 - **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**: the `snoutdata` CLI and its MCP server.
 - **[snoutdata/snout-client](https://github.com/snoutdata/snout-client)**: `@snoutdata/client`, the JavaScript client for a SnoutData Cloud project.
+- **[snoutdata/snouttime](https://github.com/snoutdata/snouttime)**: SnoutTime, the time-series extension for Postgres in every SnoutData Cloud project.
 - **[snoutdata/app](https://github.com/snoutdata/app)**: SnoutData Desktop releases for Windows, macOS and Linux.
 - **[snoutdata/apt](https://github.com/snoutdata/apt)**: the signed Debian/Ubuntu apt repository.
