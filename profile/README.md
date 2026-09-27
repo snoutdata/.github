@@ -16,6 +16,6 @@
 - **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**: the `snoutdata` CLI and its MCP server.
 - **[snoutdata/snout-client](https://github.com/snoutdata/snout-client)**: `@snoutdata/client`, the JavaScript client for a SnoutData Cloud project.
 - **[snoutdata/snouttime](https://github.com/snoutdata/snouttime)**: The time-series extension for Postgres in every SnoutData Cloud project.
-- **[snoutdata/snout-storage](https://github.com/snoutdata/snout-storage)**: File storage for SnoutData Cloud project: buckets and files in S3, access decided by your own row-level security.
+- **[snoutdata/snout-storage](https://github.com/snoutdata/snout-storage)**: File storage for SnoutData Cloud project: buckets and files in S3, access by row-level security.
 - **[snoutdata/app](https://github.com/snoutdata/app)**: SnoutData Desktop releases for Windows, macOS and Linux.
 - **[snoutdata/apt](https://github.com/snoutdata/apt)**: the signed Debian/Ubuntu apt repository.
