@@ -19,6 +19,6 @@
 - **[snoutdata/snout-storage](https://github.com/snoutdata/snout-storage)**: File storage for SnoutData Cloud project: buckets and files in S3, access by row-level security.
 - **[snoutdata/snout-images](https://github.com/snoutdata/snout-images)**: Image resizing for SnoutData Cloud storage: imgproxy, unmodified and pinned, with our defaults.
 - **[snoutdata/snout-push](https://github.com/snoutdata/snout-push)**: Push notifications for iPhone, Android and the web, sent from your database.
-- **[snoutdata/snout-realtime](https://github.com/snoutdata/snout-realtime)**: Realtime over WebSockets: broadcast, presence and database changes, with row-level security deciding who sees what.
+- **[snoutdata/snout-realtime](https://github.com/snoutdata/snout-realtime)**: Realtime over WebSockets: broadcast, presence and database changes, with row-level security.
 - **[snoutdata/app](https://github.com/snoutdata/app)**: SnoutData Desktop releases for Windows, macOS and Linux.
 - **[snoutdata/apt](https://github.com/snoutdata/apt)**: the signed Debian/Ubuntu apt repository.
