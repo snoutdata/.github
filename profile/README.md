@@ -21,5 +21,6 @@
 - **[snoutdata/snout-push](https://github.com/snoutdata/snout-push)**: Push notifications for iPhone, Android and the web, sent from your database.
 - **[snoutdata/snout-realtime](https://github.com/snoutdata/snout-realtime)**: Realtime over WebSockets: broadcast, presence and database changes, with row-level security.
 - **[snoutdata/snout-utils](https://github.com/snoutdata/snout-utils)**: Superuser-only Postgres statements, delegated to the database owner.
+- **[snoutdata/snout-net](https://github.com/snoutdata/snout-net)**: HTTP requests from SQL, sent by a background worker once the transaction commits.
 - **[snoutdata/app](https://github.com/snoutdata/app)**: SnoutData Desktop releases for Windows, macOS and Linux.
 - **[snoutdata/apt](https://github.com/snoutdata/apt)**: the signed Debian/Ubuntu apt repository.
