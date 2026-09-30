@@ -20,7 +20,7 @@
 - **[snoutdata/snout-images](https://github.com/snoutdata/snout-images)**: Image resizing for SnoutData Cloud storage: imgproxy, unmodified and pinned, with our defaults.
 - **[snoutdata/snout-push](https://github.com/snoutdata/snout-push)**: Push notifications for iPhone, Android and the web, sent from your database.
 - **[snoutdata/snout-realtime](https://github.com/snoutdata/snout-realtime)**: Realtime over WebSockets: broadcast, presence and database changes, with row-level security.
-- **[snoutdata/snout-auth](https://github.com/snoutdata/snout-auth)**: Sign-up, sign-in, sessions, multi-factor, OAuth and SAML single sign-on, with your users in your own Postgres.
+- **[snoutdata/snout-auth](https://github.com/snoutdata/snout-auth)**: Sign-up, sign-in, multi-factor, OAuth and SAML single sign-on, with your users in your own Postgres.
 - **[snoutdata/snout-utils](https://github.com/snoutdata/snout-utils)**: Superuser-only Postgres statements, delegated to the database owner.
 - **[snoutdata/snout-net](https://github.com/snoutdata/snout-net)**: HTTP requests from SQL, sent by a background worker once the transaction commits.
 - **[snoutdata/snout-graphql](https://github.com/snoutdata/snout-graphql)**: GraphQL answered inside Postgres, from the database's own schema.
