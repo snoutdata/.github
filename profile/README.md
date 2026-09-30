@@ -24,6 +24,6 @@
 - **[snoutdata/snout-utils](https://github.com/snoutdata/snout-utils)**: Superuser-only Postgres statements, delegated to the database owner.
 - **[snoutdata/snout-net](https://github.com/snoutdata/snout-net)**: HTTP requests from SQL, sent by a background worker once the transaction commits.
 - **[snoutdata/snout-graphql](https://github.com/snoutdata/snout-graphql)**: GraphQL answered inside Postgres, from the database's own schema.
-- **[snoutdata/snout-functions](https://github.com/snoutdata/snout-functions)**: The Snout Functions runtime: TypeScript on Deno's web platform, each function in V8 isolates of its own.
+- **[snoutdata/snout-functions](https://github.com/snoutdata/snout-functions)**: Functions runtime: TypeScript on Deno's web platform, each function in V8 isolates of its own.
 - **[snoutdata/app](https://github.com/snoutdata/app)**: SnoutData Desktop releases for Windows, macOS and Linux.
 - **[snoutdata/apt](https://github.com/snoutdata/apt)**: the signed Debian/Ubuntu apt repository.
