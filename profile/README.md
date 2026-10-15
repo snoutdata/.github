@@ -13,7 +13,7 @@
 ---
 
 - **[snoutdata/snoutdata](https://github.com/snoutdata/snoutdata)**: start here. The docs, runnable examples, and everything in one place.
-- **[snoutdata/studio](https://github.com/snoutdata/studio)**: SnoutData Studio, the desktop workbench: its source (Apache-2.0) and its releases for Windows, macOS and Linux.
+- **[snoutdata/studio](https://github.com/snoutdata/studio)**: SnoutData Studio, the desktop workbench: Source code and releases.
 - **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**: the `snoutdata` CLI and its MCP server.
 - **[snoutdata/snout-client](https://github.com/snoutdata/snout-client)**: `@snoutdata/client`, the JavaScript client for a SnoutData Cloud project.
 - **[snoutdata/snout-stack](https://github.com/snoutdata/snout-stack)**: the whole stack on your own machine with Docker Compose: Postgres, auth, a REST and GraphQL API, storage, Realtime, functions and push behind one gateway.
