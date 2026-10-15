@@ -13,6 +13,7 @@
 ---
 
 - **[snoutdata/snoutdata](https://github.com/snoutdata/snoutdata)**: start here. The docs, runnable examples, and everything in one place.
+- **[snoutdata/studio](https://github.com/snoutdata/studio)**: SnoutData Studio, the desktop workbench: its source (Apache-2.0) and its releases for Windows, macOS and Linux.
 - **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**: the `snoutdata` CLI and its MCP server.
 - **[snoutdata/snout-client](https://github.com/snoutdata/snout-client)**: `@snoutdata/client`, the JavaScript client for a SnoutData Cloud project.
 - **[snoutdata/snout-stack](https://github.com/snoutdata/snout-stack)**: the whole stack on your own machine with Docker Compose: Postgres, auth, a REST and GraphQL API, storage, Realtime, functions and push behind one gateway.
@@ -27,5 +28,6 @@
 - **[snoutdata/snout-graphql](https://github.com/snoutdata/snout-graphql)**: GraphQL answered inside Postgres, from the database's own schema.
 - **[snoutdata/snout-oauth](https://github.com/snoutdata/snout-oauth)**: Sign in to Postgres 18 as yourself: the OAuth token validator inside the database.
 - **[snoutdata/snout-functions](https://github.com/snoutdata/snout-functions)**: Functions runtime: TypeScript on Deno's web platform, each function in V8 isolates of its own.
-- **[snoutdata/app](https://github.com/snoutdata/app)**: SnoutData Studio releases for Windows, macOS and Linux.
+- **[snoutdata/snout-containers](https://github.com/snoutdata/snout-containers)**: The runner behind Snout Containers: OCI images under gVisor, with limits, a network per project, restarts and logs.
+- **[snoutdata/snout-lepis](https://github.com/snoutdata/snout-lepis)**: One Postgres database spread over many plain Postgres nodes, behind a router that speaks the wire protocol. Being built in the open.
 - **[snoutdata/apt](https://github.com/snoutdata/apt)**: the signed Debian/Ubuntu apt repository.
