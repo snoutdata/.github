@@ -12,11 +12,11 @@
 
 ---
 
-- **[snoutdata/snoutdata](https://github.com/snoutdata/snoutdata)**: start here. The docs, runnable examples, and everything in one place.
-- **[snoutdata/studio](https://github.com/snoutdata/studio)**: SnoutData Studio, the desktop workbench: Source code and releases.
+- **[snoutdata/snoutdata](https://github.com/snoutdata/snoutdata)**: Start here. The docs, runnable examples, and everything in one place.
+- **[snoutdata/studio](https://github.com/snoutdata/studio)**: Source code and releases for SnoutData Studio, the desktop workbench.
 - **[snoutdata/snout-cli](https://github.com/snoutdata/snout-cli)**: the `snoutdata` CLI and its MCP server.
 - **[snoutdata/snout-client](https://github.com/snoutdata/snout-client)**: `@snoutdata/client`, the JavaScript client for a SnoutData Cloud project.
-- **[snoutdata/snout-stack](https://github.com/snoutdata/snout-stack)**: the whole stack on your own machine with Docker Compose: Postgres, auth, a REST and GraphQL API, storage, Realtime, functions and push behind one gateway.
+- **[snoutdata/snout-stack](https://github.com/snoutdata/snout-stack)**: The whole stack runs on your own machine with Docker Compose. Everything behind one gateway.
 - **[snoutdata/snouttime](https://github.com/snoutdata/snouttime)**: The time-series extension for Postgres in every SnoutData Cloud project.
 - **[snoutdata/snout-storage](https://github.com/snoutdata/snout-storage)**: File storage for SnoutData Cloud project: buckets and files in S3, access by row-level security.
 - **[snoutdata/snout-images](https://github.com/snoutdata/snout-images)**: Image resizing for SnoutData Cloud storage: imgproxy, unmodified and pinned, with our defaults.
